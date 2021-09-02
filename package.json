@@ -1,0 +1,22 @@
+{
+  "name": "lotr_vaccination",
+  "version": "1.0.0",
+  "description": "Lord of the Rings Vaccination API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Kenneth G. Esguerra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
